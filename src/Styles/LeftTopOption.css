@@ -1,0 +1,18 @@
+.leftTopOptionContainer {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.leftTopOptionContainer > img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.leftTopOptionContainer > p {
+  font-size: 13px;
+}
+
+.leftTopOptionContainer > p:hover {
+  color: orange;
+}
