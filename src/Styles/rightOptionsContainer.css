@@ -1,0 +1,25 @@
+.rightOptionsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightIconDec {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.rightIcon {
+  color: orange;
+  padding: 5px;
+}
+
+.rightIconDec > h2 {
+  font-size: 15px;
+  height: 5px;
+}
+
+.rightIconDec > p {
+  font-size: 13px;
+  height: 5px;
+}
