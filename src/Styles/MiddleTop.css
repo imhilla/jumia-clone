@@ -2,8 +2,17 @@
   flex: 0.6;
   margin-top: 10px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .middleTopContainer > img {
   width: 100%;
+}
+
+.buttonSlideContainer {
+  display: flex;
+  margin-top: -20px;
 }
