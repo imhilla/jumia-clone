@@ -18,7 +18,7 @@ import Others from '../images/others.png';
 function LeftTop() {
   return (
     <div className="leftTopContainer">
-      <LeftTopOption Icon={Supermarket} title="Supermarket" />
+      <LeftTopOption Icon={Supermarket} title="Supermarket" className="leftTarget"/>
       <LeftTopOption Icon={Health} title="Health & Beauty" />
       <LeftTopOption Icon={Home} title="Home & Office" />
       <LeftTopOption Icon={Phone} title="Phones & Tablets" />

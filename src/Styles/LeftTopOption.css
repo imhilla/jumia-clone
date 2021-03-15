@@ -1,11 +1,11 @@
 .leftTopOptionContainer {
   display: flex;
   align-items: center;
-  height: 30px;
+  line-height: 4px;
 }
 
 .leftTopOptionContainer > img {
-  height: 20px;
+  height: 19px;
   margin-right: 5px;
 }
 

@@ -1,5 +1,7 @@
 .topSectionContainer {
   display: flex;
-  justify-content: center;
-  margin: 0 100px;
+  justify-content: space-between;
+  margin: 0 70px;
+  height: 65vh;
+  background-color: red;
 }

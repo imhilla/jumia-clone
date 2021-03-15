@@ -14,6 +14,7 @@ function RightTop() {
         <RightOptions Icon={MonetizationOnIcon} title="SELL ON JUMIA" description="Millions Of Visitors" />
       </div>
       <div className="rightBottomDiv">
+        <img src="https://ke.jumia.is//cms/2021/W02/Prime/KE_Prime_122_BF-(1).gif"/>
       </div>
     </div>
   )

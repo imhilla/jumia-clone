@@ -1,3 +1,9 @@
 .middleTopContainer {
   flex: 0.6;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.middleTopContainer > img {
+  width: 100%;
 }
