@@ -3,7 +3,7 @@ import '../Styles/Header.css';
 import Button from '@material-ui/core/Button';
 import { Search } from '@material-ui/icons';
 import HeaderOptionLeft from '../Components/HeaderOptionLeft';
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -27,7 +27,7 @@ function Header() {
       <div className="headerRight">
         <HeaderOptionLeft Icon={PersonOutlineIcon} title="Login" DropIcon={ExpandMoreIcon} />
         <HeaderOptionLeft Icon={HelpOutlineIcon} title="Help" DropIcon={ExpandMoreIcon} />
-        <HeaderOptionLeft Icon={AddShoppingCartIcon} title="Cart" />
+        <HeaderOptionLeft Icon={ShoppingCartIcon} title="Cart" />
       </div>
     </div>
   )

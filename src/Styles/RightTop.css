@@ -7,12 +7,9 @@
 }
  
 .rightTopDiv {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: white;
 } 
-
-.rightBottomDiv{
-}
 
 .rightBottomDiv > img {
   width: 100%;
