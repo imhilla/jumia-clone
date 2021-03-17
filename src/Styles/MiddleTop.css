@@ -8,6 +8,7 @@
   width: 100%;
   position: relative;
   background-color: white;
+  height: 60vh;
 }
 
 .middleTopContainer > img {
@@ -16,7 +17,9 @@
 
 .buttonSlideContainer {
   display: flex;
-  /* margin-top: -20px; */
+  position: absolute;
+  bottom: 5%;
+  z-index: 1000;
 }
 
 .leftButton:hover {

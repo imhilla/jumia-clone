@@ -10,4 +10,3 @@ function ButtonSlides({ index, pic }) {
 }
 
 export default ButtonSlides
-// style={{color: `${color}`, height: '10px', borderRadius: '50px'}}
