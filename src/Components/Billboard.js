@@ -4,7 +4,7 @@ import billboard from '../images/topimage.gif';
  
 function Billboard() {
   return (
-    <div>
+    <div className="billboardContainer">
       <img src={billboard} />
     </div>
   )
