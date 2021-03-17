@@ -9,11 +9,8 @@ import image6 from '../images/sixthimage.jpg';
 import image7 from '../images/seventh.jpg';
 import image8 from '../images/lastimage.jpg';
 import ButtonSlides from '../Components/ButtonSlides';
-import { Button } from '@material-ui/core';
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
-import zIndex from '@material-ui/core/styles/zIndex';
-
 
 function MiddleTop() {
   const [pic, setPic] = useState(0);
@@ -50,8 +47,6 @@ function MiddleTop() {
       setPic(0)
     }
   }
-  console.log(pic)
-
 
   const leftButton = (
     <div className="leftButton"
@@ -93,8 +88,6 @@ function MiddleTop() {
         <ButtonSlides pic={pic} index={7} />
       </div>
       }
-
-
     </div>
   )
 }
